@@ -15,7 +15,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "uitest": "playwright test",
+    "uitest-codegen": "playwright codegen",
+    "uitest-report": "playwright show-report"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0"
   }
 }
