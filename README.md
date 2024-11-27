@@ -5,6 +5,13 @@ With just two targeted tests, we aim to address many of the common a11y pitfalls
 ensuring that developers prioritize accessibility in every stage of the development process.
 The Aria snapshot ensures correct structure on the page while Axe analyze checks common problems 
 
+## Running the app
+
+```shell
+npm install
+npm start
+```
+
 ## Running tests
 
 ```shell
