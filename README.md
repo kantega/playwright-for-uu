@@ -26,7 +26,9 @@ to install Playwright's browsers on your machine (this needs to be done only onc
 
 ## Aria snapshots
 
-To create new aria snapshot use `npm run uitest-codegen` and use Aria tab from the bottom toolbar
+To create new aria snapshot use `npm run uitest-codegen`, then navigate to your page 
+and use "Assert snapshot" from the top toolbar. It will generate a test script that you can 
+copy-paste.
 (read more about Playwright's Codegen [here](https://playwright.dev/docs/codegen-intro))
 
 To update all snapshot use `npx playwright test --update-snapshots` 
