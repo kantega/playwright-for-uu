@@ -3,7 +3,7 @@ const {test, expect} = require('@playwright/test');
 const AxeBuilder = require('@axe-core/playwright').default;
 
 test.describe('homepage', () => { // 2
-    test('has title', async ({page}) => {
+    test('should have correct structure', async ({page}) => {
         await page.goto('http://localhost:3000/');
         await expect(page.locator('#root')).toMatchAriaSnapshot(`
         - heading "Eventyrbilder" [level=4]
