@@ -41,7 +41,12 @@ Axe analyze and discover any violations. Read more in [docs](https://playwright.
 ## Other 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Note
 
+## Some accessibility issues Playwright did not detect (but the Chrome extension Wave did)
+- The search field is missing a label
+- Label-elements are used (below the images) without being associated with an input field
+- All the images are using the same alt-text
 
-
-
+## Example of what neither tools detected
+- The lang attribute is set to "en," but the language of the page is Norwegian. This is especially important for screen readers to ensure correct interpretation.
