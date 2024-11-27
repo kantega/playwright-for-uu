@@ -6,7 +6,7 @@ ensuring that developers prioritize accessibility in every stage of the developm
 
 ## Aria snapshots
 
-To create new aria snapshot use `playwright codegen` 
+To create new aria snapshot use `npm run uitest-codegen` 
 
 To update all snapshot use `npx playwright test --update-snapshots` 
 
